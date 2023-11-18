@@ -4,9 +4,7 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import BookmarkRemoveIcon from '@mui/icons-material/BookmarkRemove';
 import BookmarkAddIcon from '@mui/icons-material/BookmarkAdd';
-
 import {useSelector, useDispatch} from "react-redux";
-
 import {deleteData} from "../reducers/data/dataSlice.tsx";
 import {llenarCampos} from "../reducers/edit/editSlice.tsx";
 import {onModal1,onModal2} from "../reducers/modal/modalSlice.tsx";
